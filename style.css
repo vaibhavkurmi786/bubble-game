@@ -13,7 +13,7 @@ height:100%;
 .main{
     width: 100%;
     height: 100%;
-    background: grey;
+    background: rgb(220, 245, 153);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +61,10 @@ height:100%;
     justify-content: center;
     flex-direction: column;
     gap: 1vh;
+}
+
+.cards button:active{
+    background-color: lightgreen;
 }
 
 #pbot{
