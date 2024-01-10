@@ -14,7 +14,7 @@ function startGame() {
     function randomNumberGenerator() {
     
     let divadd = "";
-    for (let a = 1; a <=126; a++) {
+    for (let a = 1; a <=119; a++) {
          rn =  Math.round(Math.random()*10)
         divadd += `<div class="bubble">${rn}</div>`;
     
